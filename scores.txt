@@ -1,0 +1,6 @@
+ha: 5
+Lizzi: 5
+Lana: 5
+Jane: 5
+Galina: 5
+fatima: 5
