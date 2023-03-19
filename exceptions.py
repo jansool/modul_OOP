@@ -3,8 +3,8 @@ class EnemyDown(Exception):
 
 
 class GameOver(Exception):
-    def __init__(self, n, s):
-        self.nam = n
-        self.scor = s
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
         with open('scores.txt', 'a') as sfp:
-            sfp.write('{0}: {1}\n'.format(self.nam, self.scor))
+            sfp.write('{0}: {1}\n'.format(self.name, self.score))
